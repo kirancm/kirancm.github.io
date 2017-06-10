@@ -1,0 +1,626 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+blockquote,q {
+    quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    text-align: inherit;
+}
+
+@font-face {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Bitter-Regular"),url(https://fonts.gstatic.com/s/bitter/v10/VyzH0eNzfhxMjuJ3chtK7H-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2");
+    unicode-range: U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Bitter-Regular"),url(https://fonts.gstatic.com/s/bitter/v10/HEpP8tJXlWaYHimsnXgfCOvvDin1pK8aKteLpeZ5c0A.woff2) format("woff2");
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Cond Light"),local("OpenSans-CondensedLight"),url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xE6du99w8ONfQrOf4kprgAx_v5H-gcmDugi2HQeB0BPm.woff2) format("woff2");
+    unicode-range: U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Cond Light"),local("OpenSans-CondensedLight"),url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xK8wKBk9M_9zvJF5T73CXCh_v5H-gcmDugi2HQeB0BPm.woff2) format("woff2");
+    unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Cond Light"),local("OpenSans-CondensedLight"),url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xJ14gK-0unzMDfuYl-aQUV9_v5H-gcmDugi2HQeB0BPm.woff2) format("woff2");
+    unicode-range: U+1F00-1FFF;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Cond Light"),local("OpenSans-CondensedLight"),url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xB5VLgeZEtrtjc2zP-H3k9d_v5H-gcmDugi2HQeB0BPm.woff2) format("woff2");
+    unicode-range: U+0370-03FF;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Cond Light"),local("OpenSans-CondensedLight"),url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xAWz7bTsodKOChnd4npPWzF_v5H-gcmDugi2HQeB0BPm.woff2) format("woff2");
+    unicode-range: U+0102-0103,U+1EA0-1EF9,U+20AB;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Cond Light"),local("OpenSans-CondensedLight"),url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xD_0YkshJ_UyXEU-Q7eV4G5_v5H-gcmDugi2HQeB0BPm.woff2) format("woff2");
+    unicode-range: U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Cond Light"),local("OpenSans-CondensedLight"),url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xMmDra0ONnO3FPH--kzkC5zr7w4p9aSvGirXi6XmeXNA.woff2) format("woff2");
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Titillium Web"),local("TitilliumWeb-Regular"),url(https://fonts.gstatic.com/s/titilliumweb/v4/7XUFZ5tgS-tD6QamInJTcSGR3J8a2Jm30YJvJ3tIMOY.woff2) format("woff2");
+    unicode-range: U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Titillium Web"),local("TitilliumWeb-Regular"),url(https://fonts.gstatic.com/s/titilliumweb/v4/7XUFZ5tgS-tD6QamInJTceHuglUR2dhBxWD-q_ehMME.woff2) format("woff2");
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;
+}
+
+body {
+    font-family: 'Titillium Web',sans-serif;
+}
+
+header {
+    height: 20px;
+}
+
+.webp .intro-wrapper {
+    background: url("../bg.webp") no-repeat bottom center;
+}
+
+.webp footer {
+    background: url("../footer.webp") no-repeat bottom center;
+}
+
+.webp .oss-projects li .project-details h4:before {
+    background: url(../sprite.webp) 7px 1px no-repeat;
+}
+
+.no-webp .intro-wrapper {
+    background: url("../bg.jpg") no-repeat bottom center;
+}
+
+.no-webp footer {
+    background: url("../footer.jpg") no-repeat bottom center;
+}
+
+.no-webp .oss-projects li .project-details h4:before {
+    background: url(../sprite.png) 7px 1px no-repeat;
+}
+
+.intro-wrapper {
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    margin: 0 auto;
+    background-size: 100%;
+    background: #4e342e url("../bg-xs.jpg") no-repeat center;
+    background-position-y: -140px!important;
+    background-size: 180%;
+    display: flex;
+}
+
+.intro-wrapper .intro-content {
+    align-items: center;
+    justify-content: center;
+    display: inherit;
+    width: 100%;
+    color: #000;
+    flex-direction: column;
+}
+
+.intro-wrapper .intro-content img {
+    margin: 10px 0 30px 0;
+    width: 150px;
+    border: solid 2px #fff;
+    border-radius: 100%;
+}
+
+.intro-wrapper .intro-content h1 {
+    font-size: 36px;
+    font-family: 'Bitter',sans-serif;
+    display: inline-block;
+    color: #fff;
+    padding: 2px;
+}
+
+.intro-wrapper .intro-content p {
+    padding: 10px 15px;
+    text-align: center;
+    max-width: 800px;
+    color: #fff;
+}
+
+.intro-wrapper .intro-content p.title {
+    font-size: 16px;
+    padding: 3px 4px;
+}
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.main-content .quick-intro {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 20px;
+    margin: 25px 0;
+}
+
+.main-content .skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-content .skills ul li {
+    display: inline-block;
+    border: solid 1px #333;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 2px;
+    color: #333;
+    text-decoration: none;
+}
+
+section {
+    margin: 40px 0 100px 0;
+}
+
+section h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed',sans-serif;
+    text-align: center;
+    padding: 0 0 25px 0;
+}
+
+section h2 span {
+    position: relative;
+}
+
+section h2 span:before,section h2 span:after {
+    content: "";
+    position: absolute;
+    background: #e0e0e0;
+    height: 1px;
+    width: 100px;
+    top: 20px;
+}
+
+section h2 span:before {
+    left: -110px;
+}
+
+section h2 span:after {
+    right: -110px;
+}
+
+section.publications {
+    margin: 40px 0 20px 0;
+}
+
+.clients {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.clients li {
+    height: 33.3%;
+    margin: 5px;
+    background: #fafafa no-repeat center;
+    background-size: 100%;
+}
+
+.clients li img {
+    visibility: hidden;
+    width: 60%;
+}
+
+.clients li.chrysler {
+    background-image: url("../logos/chrysler.png");
+}
+
+.clients li.dodge {
+    background-image: url("../logos/dodge.png");
+    background-size: 80%;
+}
+
+.clients li.jeep {
+    background-image: url("../logos/jeep.png");
+    background-size: 50%;
+}
+
+.clients li.ramtrucks {
+    background-image: url("../logos/ramtrucks.png");
+    background-size: 40%;
+}
+
+.clients li.fiat {
+    background-image: url("../logos/fiat.png");
+    background-size: 40%;
+}
+
+.clients li.uconnect {
+    background-image: url("../logos/uconnect.png");
+    background-size: 40%;
+}
+
+.featured-clients p {
+    text-align: center;
+    line-height: 24px;
+}
+
+.oss-projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.oss-projects li {
+    position: relative;
+    width: 31.5%;
+    margin: 1px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.oss-projects li .project-details {
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    color: #fff;
+}
+
+.oss-projects li .project-details .thumb {
+    width: 90px;
+    display: none;
+}
+
+.oss-projects li .project-details .thumb img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.oss-projects li .project-details h3 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.oss-projects li .project-details h4 {
+    font-size: 12px;
+    padding: 5px 30px;
+    position: relative;
+}
+
+.oss-projects li .project-details h4:before {
+    background-size: 30px;
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: -1px;
+}
+
+.oss-projects li .project-details h4.users:before {
+    background-position: -39px 1px;
+    background-size: 60px;
+    height: 25px;
+    width: 25px;
+}
+
+.oss-projects li .project-details h4.star:before {
+    background-position: -16px 3px;
+    background-size: 53px;
+    height: 20px;
+    width: 18px;
+}
+
+.oss-projects li .project-details p {
+    padding: 5px 10px;
+    width: 80%;
+    font-size: 14px;
+}
+
+.oss-projects li .project-details:after {
+    content: "";
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    background: url(../sprite.png) 7px 1px no-repeat;
+    background-size: 100px;
+    right: 10px;
+    top: 36%;
+    cursor: pointer;
+}
+
+.oss-projects li a {
+    text-decoration: none;
+}
+
+.publications ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.publications ul li {
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.publications ul li img {
+    width: 100%;
+}
+
+.publications ul li .article {
+    position: absolute;
+    width: 95%;
+    bottom: 1px;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+footer {
+    min-height: 300px;
+    background-position: 0!important;
+    background-size: 100%;
+}
+
+footer section {
+    margin: 0;
+    position: relative;
+    top: 80px;
+}
+
+footer .channels ul {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+footer .channels ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 2px;
+}
+
+footer .channels ul li:hover {
+    background: #1976d2;
+    cursor: pointer;
+}
+
+footer .channels ul li:hover a {
+    color: #fff;
+}
+
+footer .channels ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .channels ul li.linkedin {
+    background: #0077B5;
+}
+
+footer .channels ul li.github {
+    background: #333;
+}
+
+footer .channels ul li.twitter {
+    background: #1da1f2;
+}
+
+footer .channels ul li.medium {
+    background: #00ab6b;
+}
+
+footer .channels ul li.fpx {
+    background: #ff4c4c;
+}
+
+footer .channels ul li.behance {
+    background: #1769ff;
+}
+
+@media only screen and (max-width: 320px) {
+    .webp .intro-wrapper,.no-webp .intro-wrapper {
+        background-position:center bottom!important;
+        min-height: 380px;
+    }
+
+    .webp .intro-wrapper .intro-content img,.no-webp .intro-wrapper .intro-content img {
+        margin: 10px 0 30px 0;
+        width: 120px;
+    }
+
+    .webp .intro-wrapper .intro-content h1,.no-webp .intro-wrapper .intro-content h1 {
+        font-size: 32px;
+    }
+
+    .webp .intro-wrapper .intro-content p.title,.no-webp .intro-wrapper .intro-content p.title {
+        font-size: 12px;
+    }
+
+    .clients li {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .webp .intro-wrapper,.no-webp .intro-wrapper {
+        background-position:-900px -180px!important;
+        min-height: 380px;
+    }
+
+    .webp .intro-wrapper .intro-content img,.no-webp .intro-wrapper .intro-content img {
+        margin: 10px 0 30px 0;
+        width: 120px;
+    }
+
+    .webp .intro-wrapper .intro-content h1,.no-webp .intro-wrapper .intro-content h1 {
+        font-size: 32px;
+    }
+
+    .webp .intro-wrapper .intro-content p.title,.no-webp .intro-wrapper .intro-content p.title {
+        font-size: 14px;
+    }
+
+    .webp footer,.no-webp footer {
+        background-position: -800px -200px!important;
+        background-size: auto!important;
+    }
+
+    br {
+        display: none;
+    }
+
+    .clients li {
+        height: 200px;
+        width: 200px;
+    }
+
+    .main-content .skills ul li {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .oss-projects .project-details {
+        padding: 10px 10px 10px 0;
+    }
+
+    .oss-projects li {
+        width: 85%;
+    }
+
+    .featured-clients p br {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .clients li {
+        height:150px;
+        width: 150px;
+        margin: 5px;
+    }
+
+    footer section {
+        margin: 0;
+        position: relative;
+        top: 20px!important;
+    }
+
+    footer .channels ul {
+        flex-wrap: wrap;
+        width: 70%;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    footer .channels ul li {
+        margin: 2px!important;
+    }
+
+    .oss-projects li {
+        width: 100%;
+    }
+
+    .publications ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .publications ul li {
+        width: 80%;
+        margin: 5px 0;
+    }
+}
