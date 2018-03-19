@@ -1,4 +1,9 @@
 body { margin: 60px auto; width: 70%; }
+@media screen and (max-width: 768px) {
+  body {
+    width: 90%;
+  }
+}
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
@@ -44,10 +49,11 @@ ul.posts li a:hover{
 }
 
 
-/* CV */
-.cv { margin: 0px 0px 60px; }
-.cv h1 { font-size: 3em; }
-.cv h2 { font-size: 2em; }
-.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-.cv address, .cv p { font-size: 1.2em; }
-.cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+/* About */
+.about .profilePic{
+     height: 200px;   
+}
+
+.about .profilePhotoAndLinks .links{
+        margin-top: 30px;   
+}
