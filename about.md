@@ -13,4 +13,5 @@ I blogs at being.net.in and Organize JS meetups in bangalore
 An Indian, I lives in Bangalore, if not coding i spents time in exploring different cultures, travelling, Yoga
 
 SKILLS
+
 React,Flux,Redux,Javascript,Webpack,Jest,Bootstrap,NodeJS,SCSS,HTML,CSS,AWS,GIT
