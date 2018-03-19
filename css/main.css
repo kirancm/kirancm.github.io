@@ -22,7 +22,10 @@ ul.posts {
     padding: 10px 0px;
     width: 82%;; 
     font-size: 1.5em; }
+
 ul.posts li { list-style: none; }
+
+ul.posts li span { padding-right: 20px;}
 
 /* CV */
 .cv { margin: 0px 0px 60px; }
