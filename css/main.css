@@ -25,7 +25,8 @@ ul.posts {
 
 ul.posts li { 
     list-style: none; 
-    font-family: Palatino, Georgia, Times, serif;}
+    font-family: Palatino, Georgia, Times, serif;
+    padding: 20px 0px;}
 
 ul.posts li span {     
     font-size: 17px;
