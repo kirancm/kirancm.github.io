@@ -29,6 +29,13 @@ ul.posts li span {
     font-size: 15px;
     padding-right: 20px;}
 
+ul.posts li a{
+    color: black;
+    font-family: Palatino, Georgia, Times, serif;
+    font-size: 30px;
+}
+
+
 /* CV */
 .cv { margin: 0px 0px 60px; }
 .cv h1 { font-size: 3em; }
