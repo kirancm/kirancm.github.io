@@ -23,7 +23,9 @@ ul.posts {
     width: 82%;; 
     font-size: 1.5em; }
 
-ul.posts li { list-style: none; }
+ul.posts li { 
+    list-style: none; 
+    font-family: Palatino, Georgia, Times, serif;}
 
 ul.posts li span {     
     font-size: 15px;
@@ -31,8 +33,13 @@ ul.posts li span {
 
 ul.posts li a{
     color: black;
-    font-family: Palatino, Georgia, Times, serif;
     font-size: 30px;
+    text-decoration: none;
+}
+
+ul.posts li a:hover{
+    text-decoration: none;
+    color: #3980c0;
 }
 
 
