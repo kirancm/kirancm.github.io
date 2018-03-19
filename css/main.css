@@ -58,13 +58,13 @@ ul.posts li a:hover{
         margin-top: 30px;   
 }
 
-.skills ui {
+.skills ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.skills ui li {
+.skills ul li {
     display: inline-block;
     border: solid 1px #333;
     padding: 10px;
