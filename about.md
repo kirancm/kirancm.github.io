@@ -14,25 +14,4 @@ An Indian, I lives in Bangalore, if not coding i spents time in exploring differ
 
 
 					Skills
-				-----------------------
-	<div class="skills">
-						<h4 class="header">SKILLS</h4>
-						<div>
-							<ul>
-								<li>React</li>
-								<li>Flux</li>
-								<li>Redux</li>
-								<li>Webpack</li>
-								<li>Jest</li>
-								<li>Bootstrap</li>
-								<li>Nodejs</li>
-								<li>scss</li>
-								<li>Javascript/ES6</li>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>AWS</li>
-								<li>GIT</li>
-							</ul
-						</div>
-					</div>
-								
+				-----------------------		
