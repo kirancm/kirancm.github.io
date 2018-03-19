@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a Professional front end development and full-stack JavaScript developer. I love creating responsive, performant, accessible, maintainable web applications using react and react echosystem
+		
+I have 5 plus years of corporate experience and 1 year freelancing and entrepreneurship experience
 
-### More Information
+I blogs at being.net.in and Organize JS meetups in bangalore
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+An Indian, I lives in Bangalore, if not coding i spents time in exploring different cultures, travelling, Yoga
